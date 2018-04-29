@@ -20,7 +20,7 @@ jQuery(document).ready(function($) {
             if( pos >= 0 ){
                 var exp = rule.substr( pos+1, rule.length );
                 rule = rule.substr(0, pos);
-            }else{
+            } else {
                 rule = rule.substr( pos+1, rule.length );
             }
             
@@ -80,7 +80,7 @@ jQuery(document).ready(function($) {
         else var str = $(this).serialize();		
             $.ajax({
                 type: "POST",
-                url: "contactform/contactform.php",
+                url: "https://formspree.io/brobbiethao@gmail.com",
                 data: str,
                 success: function(msg){
                    // alert(msg);
